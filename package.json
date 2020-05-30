@@ -1,0 +1,36 @@
+{
+  "name": "go-hydra",
+  "version": "0.0.1",
+  "description": "A fast RAT (remote access tool) for macOS, Linux, Windows, Android and iOS (written in Go/Golang).",
+  "main": "hydra.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "go test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooijtech/go-hydra.git"
+  },
+  "keywords": [
+    "remote-acces",
+    "pentesting",
+    "post-exploitation",
+    "reverse-shell",
+    "remote-admin-tool",
+    "backdoor",
+    "go",
+    "golang"
+  ],
+  "author": "Marten Mooij",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mooijtech/go-hydra/issues"
+  },
+  "homepage": "https://github.com/mooijtech/go-hydra#readme",
+  "devDependencies": {
+    "electron": "9.0.0"
+  },
+  "bundleDependencies": [
+    "electron"
+  ]
+}
